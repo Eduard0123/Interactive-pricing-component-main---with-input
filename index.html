@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="section">
+        <div class="description">
+            <h1>Simple, traffic-based pricing</h1>
+            <p>Sign-up for our 30-day trial.</p>
+            <p>No credit card required.</p>
+        </div>
+        <div class="interactive-pricing-card">
+            <div class="views-pricing">
+                <span id="view">10k pageviews</span>
+                <!-- <span id="view">0 pageviews</span> -->
+                <h2 id="month">$8.00<span class="month-span"> / month</span></h2>
+                <!-- <h2 id="month">$0<span class="month-span"> / month</span></h2> -->
+            </div>
+            <div id="interactive-bar" class="interactive-bar">
+                <input id="input-range" class="input-range" type="range" min="0" max="100" value="0">
+                <output class="bubble"></output>
+            </div>
+            <div class="discount">
+                <span>Monthly Billing</span>
+                <span id="active-discount"><span class="ball"></span></span>
+                <span>Yearly Billing</span>
+                <span>25% discount</span>
+            </div>
+            <hr>
+            <div class="footer">
+                <div class="plus">
+                    <p>Unlimited Websites</p>
+                    <p>100% data ownership</p>
+                    <p>Email reports</p>
+                </div>
+                <button id="button">Start my trial</button>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js.js"></script>
+</body>
+</html>
